@@ -109,5 +109,7 @@ a {
   a:hover, a:focus, a:active {
     color: #1a936f; }
 .project{
-	display: flex;
+    display: flex;
+    padding-top: 0px;
+    padding-right: 0px;
 }
