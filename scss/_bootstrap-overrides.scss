@@ -1,0 +1,18 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+.bg-navy{
+	background-color: #114B5F;
+}
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
